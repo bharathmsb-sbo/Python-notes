@@ -403,3 +403,105 @@ Absolutely bud 🤝 Same exact format as the List notes — **concept + simple e
 | **Tuple**      | Ordered + Immutable + Duplicates            |
 | **Set**        | Unordered + Mutable + Unique                |
 | **Dictionary** | Key-Value + Ordered + Mutable + Unique Keys |
+
+
+
+
+**List**
+
+| Method / Function | Purpose                                          |
+| ----------------- | ------------------------------------------------ |
+| `append()`        | Adds one element to the end                      |
+| `extend()`        | Adds multiple elements                           |
+| `insert()`        | Adds an element at a specific position           |
+| `remove()`        | Removes the first matching value                 |
+| `pop()`           | Removes and returns an element by index          |
+| `clear()`         | Removes all elements                             |
+| `index()`         | Returns the index of a value                     |
+| `count()`         | Counts occurrences of a value                    |
+| `sort()`          | Sorts the list                                   |
+| `reverse()`       | Reverses the list                                |
+| `copy()`          | Creates a copy                                   |
+| `len()`           | Returns number of elements                       |
+| `max()`           | Returns largest element                          |
+| `min()`           | Returns smallest element                         |
+| `sum()`           | Returns sum of numeric elements                  |
+| `sorted()`        | Returns a new sorted list                        |
+| `reversed()`      | Returns a reverse iterator                       |
+| `any()`           | Returns `True` if at least one element is truthy |
+| `all()`           | Returns `True` if all elements are truthy        |
+| `enumerate()`     | Gives index and value while looping              |
+
+**Tuples
+**
+| Method / Function | Purpose                                       |
+| ----------------- | --------------------------------------------- |
+| `count()`         | Counts occurrences of a value                 |
+| `index()`         | Returns the index of a value                  
+| `len()`           | Returns number of elements                    |
+| `max()`           | Returns largest element                       |
+| `min()`           | Returns smallest element                      |
+| `sum()`           | Returns sum of numeric elements               |
+| `sorted()`        | Returns a new sorted list                     |
+| `reversed()`      | Returns a reverse iterator                    |
+| `any()`           | Checks whether at least one element is truthy |
+| `all()`           | Checks whether all elements are truthy        |
+| `enumerate()`     | Gives index and value while looping           |
+
+**Set
+**
+| Method / Function        | Purpose                                       |
+| ------------------------ | --------------------------------------------- |
+| `add()`                  | Adds one element                              |
+| `update()`               | Adds multiple elements                        |
+| `remove()`               | Removes an element; error if absent           |
+| `discard()`              | Removes an element; no error if absent        |
+| `pop()`                  | Removes and returns an arbitrary element      |
+| `clear()`                | Removes all elements                          |
+| `union()`                | Combines two or more sets                     |
+| `intersection()`         | Returns common elements                       |
+| `difference()`           | Returns elements only in the first set        |
+| `symmetric_difference()` | Returns non-common elements                   |
+| `issubset()`             | Checks whether set is a subset                |
+| `issuperset()`           | Checks whether set is a superset              |
+| `isdisjoint()`           | Checks whether sets have no common elements   |
+| `copy()`                 | Creates a copy                                |
+| `len()`                  | Returns number of elements                    |
+| `max()`                  | Returns largest element                       |
+| `min()`                  | Returns smallest element                      |
+| `sum()`                  | Returns sum of numeric elements               |
+| `sorted()`               | Returns a sorted list                         |
+| `any()`                  | Checks whether at least one element is truthy |
+| `all()`                  | Checks whether all elements are truthy        |
+
+| Operator | Purpose              |
+| -------- | -------------------- |
+| `A \| B` | Union                |
+| `A & B`  | Intersection         |
+| `A - B`  | Difference           |
+| `A ^ B`  | Symmetric difference |
+| `A <= B` | Subset check         |
+| `A >= B` | Superset check       |
+
+**Dictionary**
+
+| Method / Function | Purpose                                       |
+| ----------------- | --------------------------------------------- |
+| `get()`           | Returns value for a key                       |
+| `keys()`          | Returns all keys                              |
+| `values()`        | Returns all values                            |
+| `items()`         | Returns key-value pairs                       |
+| `update()`        | Adds or updates key-value pairs               |
+| `pop()`           | Removes specified key and returns its value   |
+| `popitem()`       | Removes and returns the last key-value pair   |
+| `clear()`         | Removes all pairs                             |
+| `copy()`          | Creates a copy                                |
+| `setdefault()`    | Gets value or inserts a default value         |
+| `len()`           | Returns number of key-value pairs             |
+| `max()`           | Returns largest key                           |
+| `min()`           | Returns smallest key                          |
+| `sorted()`        | Returns sorted keys as a list                 |
+| `any()`           | Checks dictionary keys for truthiness         |
+| `all()`           | Checks whether all dictionary keys are truthy |
+| `enumerate()`     | Gives index and key while looping             |
+
