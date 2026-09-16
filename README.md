@@ -505,3 +505,84 @@ Absolutely bud 🤝 Same exact format as the List notes — **concept + simple e
 | `all()`           | Checks whether all dictionary keys are truthy |
 | `enumerate()`     | Gives index and key while looping             |
 
+Sure bud 🤝 Same format — **concept + simple explanation + example on the same line**, with no separate example section.
+
+# 🐍 Python Conditional Statements — Complete Notes
+
+## 1. Conditional Statements
+
+* Conditional statements are used to execute different blocks of code based on conditions. `if age >= 18:`
+* Python mainly uses `if`, `elif`, and `else`.
+
+## 2. `if` Statement
+
+* `if` executes a block of code when a condition is `True`. `if age >= 18:`
+
+## 3. `else` Statement
+
+* `else` executes when the `if` condition is `False`. `if age >= 18: ... else:`
+
+## 4. `elif` Statement
+
+* `elif` means "else if" and checks another condition when the previous condition is `False`. `elif marks >= 50:`
+
+## 5. Multiple Conditions
+
+* Multiple conditions can be checked using `elif`. `if marks >= 90: ... elif marks >= 75: ... elif marks >= 50:`
+
+## 6. Nested `if`
+
+* A nested `if` is an `if` statement inside another `if` statement. `if age >= 18: ... if citizen:`
+
+## 7. Comparison Operators
+
+* `==` — Equal to
+* `!=` — Not equal to
+* `>` — Greater than
+* `<` — Less than
+* `>=` — Greater than or equal to
+* `<=` — Less than or equal to
+
+## 8. Logical Operators
+
+* `and` — True when all conditions are True. `age >= 18 and age <= 60`
+* `or` — True when at least one condition is True. `age < 18 or age > 60`
+* `not` — Reverses the Boolean result. `not(age >= 18)`
+
+## 9. Membership Operators
+
+* `in` — Checks whether a value exists in a sequence. `"a" in "apple"`
+* `not in` — Checks whether a value does not exist. `"x" not in "apple"`
+
+## 10. Identity Operators
+
+* `is` — Checks whether two variables refer to the same object. `x is y`
+* `is not` — Checks whether two variables do not refer to the same object. `x is not y`
+
+## 11. Short-Hand `if`
+
+* A one-line `if` statement can be used for simple conditions. `if age >= 18: print("Adult")`
+
+## 12. Short-Hand `if...else`
+
+* A conditional expression can place `if` and `else` in one line. `result = "Pass" if marks >= 40 else "Fail"`
+
+## 13. Boolean Conditions
+
+* Conditions evaluate to either `True` or `False`. `10 > 5`
+* Boolean values can directly control conditional statements. `if is_valid:`
+
+## 14. Truthy and Falsy Values
+
+* Values that evaluate to `True` are called truthy values. `if [1]:`
+* Values that evaluate to `False` are called falsy values. `if []:`
+* Common falsy values include `False`, `None`, `0`, empty strings, and empty collections.
+
+## 15. `pass`
+
+* `pass` is used as a placeholder when a statement is syntactically required but no action is needed. `if age >= 18: pass`
+
+## 🧠 Final Memory
+
+**CONDITIONALS → `if` → `elif` → `else` → Nested `if` → Comparison → Logical → Membership → Identity → Ternary → Truthy/Falsy**
+
