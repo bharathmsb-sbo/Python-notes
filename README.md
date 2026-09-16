@@ -1,6 +1,3 @@
-# Python-notes
-Python notes
-Perfect bud 🤝 Now I understand the format you want: **concept → simple explanation → example on the same line**, without creating a separate example section.
 
 # 🐍 Python List — Complete Notes
 
